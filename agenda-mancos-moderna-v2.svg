@@ -1,0 +1,122 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 1200">
+    <!-- Gradiente de fundo -->
+    <defs>
+        <linearGradient id="bgGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+            <stop offset="0%" style="stop-color:#000000"/>
+            <stop offset="100%" style="stop-color:#1a0000"/>
+        </linearGradient>
+    </defs>
+
+    <!-- Fundo principal -->
+    <rect x="0" y="0" width="800" height="1200" fill="url(#bgGradient)"/>
+    
+    <!-- Título principal -->
+    <text x="400" y="130" text-anchor="middle" font-family="Tungsten" font-size="60" fill="white">
+        AGENDA
+    </text>
+    <text x="400" y="180" text-anchor="middle" font-family="Tungsten" font-size="30" fill="#ff0033">
+        MANCO'S CREW
+    </text>
+
+    <!-- Container principal dos eventos -->
+    <g id="eventos" transform="translate(100,250)">
+        <!-- Linhas separadoras -->
+        <line x1="0" y1="90"  x2="600" y2="90"  stroke="#ffffff" stroke-width="1" opacity="1"/>
+        <line x1="0" y1="190" x2="600" y2="190" stroke="#ffffff" stroke-width="1" opacity="1"/>
+        <line x1="0" y1="290" x2="600" y2="290" stroke="#ffffff" stroke-width="1" opacity="1"/>
+        <line x1="0" y1="390" x2="600" y2="390" stroke="#ffffff" stroke-width="1" opacity="1"/>
+        <line x1="0" y1="490" x2="600" y2="490" stroke="#ffffff" stroke-width="1" opacity="1"/>
+        <line x1="0" y1="590" x2="600" y2="590" stroke="#ffffff" stroke-width="1" opacity="1"/>
+        <line x1="0" y1="690" x2="600" y2="690" stroke="#ffffff" stroke-width="1" opacity="1"/>
+        
+        <!-- Evento 1 -->
+        <g class="evento" transform="translate(0,0)">
+            <!-- Calendário -->
+            <rect x="0" y="0" width="70" height="80" fill="#333" rx="10"/>
+            <rect x="0" y="0" width="70" height="30" fill="#ff0033" rx="10"/>
+            <text x="35" y="22" text-anchor="middle" font-family="Tungsten" font-size="14" fill="white">SEX</text>
+            <text x="35" y="60" text-anchor="middle" font-family="Tungsten" font-size="24" fill="white">19</text>
+            
+            <!-- Evento -->
+            <text x="100" y="30" font-family="Tungsten" font-size="20" fill="#ff0033">EVENTO</text>
+            <text x="100" y="60" font-family="Tungsten" font-size="18" fill="#ff0033">VELOZES EXPERIENCE (ALTERADO 30/11)</text>
+        </g>
+
+        <!-- Evento 2 -->
+        <g class="evento" transform="translate(0,100)">
+            <rect x="0" y="0" width="70" height="80" fill="#333" rx="10"/>
+            <rect x="0" y="0" width="70" height="30" fill="#ff0033" rx="10"/>
+            <text x="35" y="22" text-anchor="middle" font-family="Tungsten" font-size="14" fill="white">SEX</text>
+            <text x="35" y="60" text-anchor="middle" font-family="Tungsten" font-size="24" fill="white">19</text>
+            
+            <text x="100" y="30" font-family="Tungsten" font-size="20" fill="#ff0033">EVENTO</text>
+            <text x="100" y="60" font-family="Tungsten" font-size="18" fill="#ff0033">MITSUFANS - CAMPOS DO JORDÃO</text>
+        </g>
+
+        <!-- Evento 3 -->
+        <g class="evento" transform="translate(0,200)">
+            <rect x="0" y="0" width="70" height="80" fill="#333" rx="10"/>
+            <rect x="0" y="0" width="70" height="30" fill="#ff0033" rx="10"/>
+            <text x="35" y="22" text-anchor="middle" font-family="Tungsten" font-size="14" fill="white">SAB</text>
+            <text x="35" y="60" text-anchor="middle" font-family="Tungsten" font-size="24" fill="white">20</text>
+            
+            <text x="100" y="30" font-family="Tungsten" font-size="20" fill="#ff0033">EVENTO</text>
+            <text x="100" y="60" font-family="Tungsten" font-size="18" fill="#ff0033">ITASHA FRIENDS 3RD STAGE</text>
+        </g>
+
+        <!-- Evento 4 -->
+        <g class="evento" transform="translate(0,300)">
+            <rect x="0" y="0" width="70" height="80" fill="#333" rx="10"/>
+            <rect x="0" y="0" width="70" height="30" fill="#ff0033" rx="10"/>
+            <text x="35" y="22" text-anchor="middle" font-family="Tungsten" font-size="14" fill="white">SAB</text>
+            <text x="35" y="60" text-anchor="middle" font-family="Tungsten" font-size="24" fill="white">20</text>
+            
+            <text x="100" y="30" font-family="Tungsten" font-size="20" fill="#ff0033">EVENTO</text>
+            <text x="100" y="60" font-family="Tungsten" font-size="18" fill="#ff0033">2º MOTOR FEELING</text>
+        </g>
+
+        <!-- Evento 5 -->
+        <g class="evento" transform="translate(0,400)">
+            <rect x="0" y="0" width="70" height="80" fill="#333" rx="10"/>
+            <rect x="0" y="0" width="70" height="30" fill="#ff0033" rx="10"/>
+            <text x="35" y="22" text-anchor="middle" font-family="Tungsten" font-size="14" fill="white">SAB</text>
+            <text x="35" y="60" text-anchor="middle" font-family="Tungsten" font-size="24" fill="white">26</text>
+            
+            <text x="100" y="30" font-family="Tungsten" font-size="20" fill="#ff0033">EVENTO</text>
+            <text x="100" y="60" font-family="Tungsten" font-size="18" fill="#ff0033">FURIOZZA - NOITE DO TERROR</text>
+        </g>
+
+        <!-- Evento 6 -->
+        <g class="evento" transform="translate(0,500)">
+            <rect x="0" y="0" width="70" height="80" fill="#333" rx="10"/>
+            <rect x="0" y="0" width="70" height="30" fill="#ff0033" rx="10"/>
+            <text x="35" y="22" text-anchor="middle" font-family="Tungsten" font-size="14" fill="white">SAB</text>
+            <text x="35" y="60" text-anchor="middle" font-family="Tungsten" font-size="24" fill="white">09</text>
+            
+            <text x="100" y="30" font-family="Tungsten" font-size="20" fill="#ff0033">EVENTO</text>
+            <text x="100" y="60" font-family="Tungsten" font-size="18" fill="#ff0033">UNDERGROUND</text>
+        </g>
+
+        <!-- Evento 7 -->
+        <g class="evento" transform="translate(0,600)">
+            <rect x="0" y="0" width="70" height="80" fill="#333" rx="10"/>
+            <rect x="0" y="0" width="70" height="30" fill="#ff0033" rx="10"/>
+            <text x="35" y="22" text-anchor="middle" font-family="Tungsten" font-size="14" fill="white">SAB</text>
+            <text x="35" y="60" text-anchor="middle" font-family="Tungsten" font-size="24" fill="white">23</text>
+            
+            <text x="100" y="30" font-family="Tungsten" font-size="20" fill="#ff0033">EVENTO</text>
+            <text x="100" y="60" font-family="Tungsten" font-size="18" fill="#ff0033">LINEUP HALLOWEEN 2024</text>
+        </g>
+
+        <!-- Evento 8 -->
+        <g class="evento" transform="translate(0,700)">
+            <rect x="0" y="0" width="70" height="80" fill="#333" rx="10"/>
+            <rect x="0" y="0" width="70" height="30" fill="#ff0033" rx="10"/>
+            <text x="35" y="22" text-anchor="middle" font-family="Tungsten" font-size="14" fill="white">SAB</text>
+            <text x="35" y="60" text-anchor="middle" font-family="Tungsten" font-size="24" fill="white">07</text>
+            
+            <text x="100" y="30" font-family="Tungsten" font-size="20" fill="#ff0033">EVENTO</text>
+            <text x="100" y="60" font-family="Tungsten" font-size="18" fill="#ff0033">WEKFEST</text>
+        </g>
+    </g>
+</svg>
