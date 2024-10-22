@@ -3,9 +3,27 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Exibindo SVG</title>
+    <title>Agenda Manco's Crew</title>
+    <style>
+        /* Define o container para habilitar rolagem */
+        .svg-container {
+            width: 100%;     /* Ajusta à largura da tela */
+            height: 100vh;   /* Ocupa a altura total da janela */
+            overflow: auto;  /* Permite a rolagem */
+        }
+
+        /* Define o SVG responsivo dentro do container */
+        .svg-container svg {
+            width: 100%;
+            height: auto;    /* Mantém a proporção ao redimensionar */
+        }
+    </style>
 </head>
 <body>
-    <img src="agenda-mancos-moderna-v2.svg" alt="Meu SVG">
+    <div class="svg-container">
+        <object type="image/svg+xml" data="agenda-mancos-moderna-v2.svg">
+            Seu navegador não suporta SVG.
+        </object>
+    </div>
 </body>
 </html>
